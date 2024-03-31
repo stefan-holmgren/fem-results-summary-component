@@ -6,34 +6,47 @@
     <!-- displays site properly based on user's device -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Results summary component</title>
   </head>
   <body>
-    <pre>
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-</pre
-    >
+    <main>
+      <section class="result">
+        <h2>Your Result</h2>
+        <p><span>76</span> of 100</p>
+        <p class="score-grade">Great</p>
+        <p class="score-result">You scored higher than 65% of the people who have taken these tests.</p>
+      </section>
+      <section class="summary">
+        <h2>Summary</h2>
+        <ul>
+          <li data-type="reaction">
+            <h3>Reaction</h3>
+            <p><span>80</span> / 100</p>
+          </li>
+          <li data-type="memory">
+            <h3>Memory</h3>
+            <p><span>92</span> / 100</p>
+          </li>
+          <li data-type="verbal">
+            <h3>Verbal</h3>
+            <p><span>61</span> / 100</p>
+          </li>
+          <li data-type="visual">
+            <h3>Visual</h3>
+            <p><span>73</span> / 100</p>
+          </li>
+        </ul>
+        <button>Continue</button>
+      </section>
+    </main>
   </body>
 </html>

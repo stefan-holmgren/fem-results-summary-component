@@ -40,3 +40,18 @@ canvas {
   }
 }
 /* END RESET */
+
+:root {
+  --fs-body: 1.125rem;
+  --fs-heading-m: 1.5rem;
+  --fs-heading-l: 2rem;
+  --fs-heading-xl: 4.5rem;
+
+  --col-main-bg: #ecf2ff;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: var(--fs-body);
+  background-color: var(--col-main-bg);
+}
