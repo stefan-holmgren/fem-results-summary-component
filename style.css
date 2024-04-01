@@ -92,6 +92,7 @@ body {
   padding: 1.5rem 3.625rem 2.5rem;
   border-radius: 0 0 var(--result-border-radius) var(--result-border-radius);
   display: grid;
+  grid-template-rows: auto auto 1fr;
   gap: 1.5rem;
 }
 
@@ -121,6 +122,7 @@ body {
 
 .result section {
   display: grid;
+  grid-template-rows: auto 1fr;
   gap: 0.5rem;
 }
 
@@ -256,6 +258,7 @@ button:focus::before {
   .result {
     max-width: 23rem;
     border-radius: var(--result-border-radius);
+    padding: 2.375rem 3.375rem 2.875rem;
   }
 
   .result .score {
