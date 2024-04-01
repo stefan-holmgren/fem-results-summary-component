@@ -29,26 +29,17 @@
       </section>
       <section class="summary">
         <h2>Summary</h2>
-        <ul>
-          <li data-type="reaction">
-            <h3>Reaction</h3>
-            <p><span>80</span> / 100</p>
-          </li>
-          <li data-type="memory">
-            <h3>Memory</h3>
-            <p><span>92</span> / 100</p>
-          </li>
-          <li data-type="verbal">
-            <h3>Verbal</h3>
-            <p><span>61</span> / 100</p>
-          </li>
-          <li data-type="visual">
-            <h3>Visual</h3>
-            <p><span>73</span> / 100</p>
-          </li>
+        <ul id="summary-list">
+          <template id="summary-item-template">
+            <li data-type="DataType">
+              <h3><img src="" alt="" /><span>Heading</span></h3>
+              <p><span>0</span> / 100</p>
+            </li>
+          </template>
         </ul>
         <button>Continue</button>
       </section>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>

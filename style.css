@@ -170,22 +170,18 @@ body {
 
 .summary li[data-type="reaction"] {
   --col-rgb: 255, 85, 85;
-  --icon: url("./assets/images/icon-reaction.svg");
 }
 
 .summary li[data-type="memory"] {
   --col-rgb: 255, 178, 30;
-  --icon: url("./assets/images/icon-memory.svg");
 }
 
 .summary li[data-type="verbal"] {
   --col-rgb: 0, 187, 143;
-  --icon: url("./assets/images/icon-verbal.svg");
 }
 
 .summary li[data-type="visual"] {
   --col-rgb: 17, 37, 214;
-  --icon: url("./assets/images/icon-visual.svg");
 }
 
 .summary li p {
@@ -202,12 +198,10 @@ body {
   align-items: center;
 }
 
-.summary li h3:before {
-  content: "";
+.summary li img {
   width: 1.25rem;
   aspect-ratio: 1;
   margin-right: 0.75rem;
-  background: var(--icon);
 }
 
 button {
