@@ -141,6 +141,7 @@ body {
   padding: calc(var(--result-border-radius) + 1.5rem) 1.875rem;
   background-color: var(--col-summary-bg);
   display: grid;
+  grid-template-rows: auto 1fr auto;
   gap: 1.5rem;
 }
 
